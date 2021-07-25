@@ -76,12 +76,15 @@ body {
     margin-left: 35px;
   }
 
+/* PROMO */
+
   .promo {
     background-color: #f1f2f4;
   }
 
   .promo-wrapper {
     display: flex;
+    justify-content: center;
   }
   
   .promo-text-column {
@@ -107,6 +110,11 @@ body {
     line-height: 21px;
     color: #727a82;
   }
+
+  .promo-title {
+    font-weight: normal;
+    font-size: 18px;
+  }
   
   .button {
     text-decoration: none;
@@ -115,6 +123,11 @@ body {
     line-height: 19px;
     color: #ffffff;
     background-color: #151c22;
+  }
+
+  .button-promo{
+    margin-top: 5px;
+    padding: 24px 27px 24px 27px;
   }
   
 /*
