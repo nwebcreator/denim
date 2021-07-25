@@ -116,3 +116,66 @@ body {
     color: #ffffff;
     background-color: #151c22;
   }
+  
+/*
+  .promo-img-column::before {
+    position: absolute;
+    content: "";
+    background-image: url('img/diagonal1.svg');
+    width: 232px;
+    height: 176px;
+  }
+  */
+
+  .section-title {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+  }
+  
+  .catalog-item-link {
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+  }
+  
+  .catalog-item h3 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
+  }
+  
+  .catalog-item-price {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .bestsellers {
+    padding-top: 130px;
+    padding-bottom: 105px;
+  }
+  
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+
+  /* Сетка каталога*/
+
+  .catalog-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+  }
+  
+  .catalog-item {
+    width: 270px;
+    margin-bottom: 25px;
+    margin-right: 30px;
+  }
