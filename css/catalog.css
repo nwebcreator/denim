@@ -76,6 +76,14 @@
   padding: 10px 20px 10px 20px;
   margin-top: 30px;
   margin-bottom: 30px;
+  width: 245px;
+  /*
+  background: url(../img/arrow-down.png) no-repeat right #ddd;
+  background-position-x: 94%;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none; */
 }
 
 .catalog-slider {
