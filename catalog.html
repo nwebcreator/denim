@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <link href="css/catalog.css" rel="stylesheet">
     <title>Catalog | «Nîmes»</title>
   </head>
@@ -61,7 +62,7 @@
           </div>
         </div>
       </div>  
-      <section class="catalog">
+      <section class="catalog container">
         <h2 class="visually-hidden">Jackets</h2>
         <select class="catalog-filters">
           <option>Filter by</option>
@@ -124,8 +125,10 @@
             </a>
           </li>
         </ul>
-        <p class="catalog-slider-caption">Showing <span>9</span> of <span>45</span> items</p>
-        <button class="catalog-slider-button button" type="button">Load more</button>
+        <div class="catalog-slider">
+          <p class="catalog-slider-caption">Showing <span>9</span> of <span>45</span> items</p>
+          <button class="catalog-slider-button button">Load more</button>
+        </div>
       </section>
     </main>
     <footer class="main-footer">
