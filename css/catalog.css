@@ -1,3 +1,5 @@
+/*HEADER*/
+
 .catalog-header {
   background-color: #f1f2f4;
 }
@@ -11,7 +13,7 @@
 }
 
 .breadcrumbs-item {
-  margin-right: 30px;
+  margin-right: 10px;
   color: #727a82;
 }
 
@@ -32,7 +34,10 @@
   text-decoration: none;
 }
 
-/*HEADER*/
+.breadcrumbs-link[href]::after {
+  content: "/";
+  margin-left: 10px;
+}
 
 .catalog-header-wrapper {
   display: flex;
@@ -41,7 +46,7 @@
 
 .catalog-header-text-column {
   width: 370px;
-  padding: 70px 0 70px 200px;
+  padding: 50px 0 50px 200px;
 }
 
 .catalog-header-img-column {
@@ -50,7 +55,35 @@
 }
 
 .catalog-header-img-column img {
+  position: relative;
   vertical-align: middle;
+  z-index: 2;
+}
+
+.catalog-header-img-column::before {
+    position: absolute;
+    content: "";
+    background: url(./../img/diagonal1.svg);
+    width: 232px;
+    height: 176px;
+    margin-top: 0px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    margin-top: 85px;
+    margin-left: -30px;
+}
+
+.catalog-header-img-column::after {
+  position: absolute;
+  content: "";
+  background: url(./../img/diagonal1.svg);
+  width: 232px;
+  height: 176px;
+  margin-top: 0px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin-top: 0px;
+  margin-left: -200px;
 }
 
 /* CATALOG*/
